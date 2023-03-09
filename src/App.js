@@ -10,7 +10,16 @@ function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Login />} />
+          <Route path="home" element={<Home />} />       
+          <Route path="login" element={<Login />} /> 
+        </Route>
+      </Routes>
 
+    </BrowserRouter>
   );
 }
 
