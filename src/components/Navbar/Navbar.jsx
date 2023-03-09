@@ -2,8 +2,10 @@ import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import { Outlet } from "react-router-dom";
 const navbar = () => {
   return (
+    <>
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
@@ -43,6 +45,8 @@ const navbar = () => {
       </div>
       
     </div>
+    <Outlet />
+    </>
   );
 };
 
