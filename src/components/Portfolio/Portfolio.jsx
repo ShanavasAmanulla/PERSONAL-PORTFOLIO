@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Project Experience</span>
+      <span style={{color: darkMode?'white': ''}}>Projects Worked</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -25,9 +25,6 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <img src={Sidebar} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

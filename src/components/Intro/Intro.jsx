@@ -30,8 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Shanavas Amanulla</span>
           <span>
-            Sitecore Developer with intermediate level of experience in web designing
-            and development, producting the Quality work
+            Sitecore Developer with high level of experience in Developing and production
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
