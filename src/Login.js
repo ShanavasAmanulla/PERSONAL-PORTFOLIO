@@ -28,7 +28,7 @@ function Login() {
         <a href="!#">Forgot password?</a>
       </div>
 
-      <MDBBtn onClick={Submit} className="mb-4">Sign in</MDBBtn>
+      
 
       <div className="text-center">
         <p>Not a member? <a href="#!">Register</a></p>
@@ -51,11 +51,23 @@ function Login() {
             <MDBIcon fab icon='github' size="sm"/>
           </MDBBtn>
 
+          <MDBBtn className="mb-2 w-100" size="lg" style={{backgroundColor: '#dd4b39'}}>
+          <MDBIcon fab icon="google" className="mx-2"/>
+          Sign in with google
+        </MDBBtn>
+
+        <MDBBtn className="mb-1 w-88" size="lg" style={{backgroundColor: '#3b5998'}}>
+          <MDBIcon fab icon="facebook-f" className="mx-2"/>
+          Sign in with facebook
+        </MDBBtn>
+        <MDBBtn onClick={Submit} className="mb-4">Sign in</MDBBtn>
+
         </div>
       </div>
 
     </MDBContainer>
   );
 }
+
 
 export default Login;
