@@ -59,7 +59,6 @@ function Login() {
       <div className="text-center">
         <p> <a href="#!">Register</a></p>
       </div>
-
     </MDBContainer>
   );
 }
