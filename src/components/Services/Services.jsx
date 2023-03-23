@@ -6,7 +6,6 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
 
 const Services = () => {
   // context
@@ -26,9 +25,6 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>MY</span>
         <span>contribution</span>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
